@@ -1,25 +1,30 @@
 === SMNTCS Google Webmaster Tools ===
 Contributors: nielslange
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FQTBXW5CCFWTY
-Tags: Google Webmaster Tools, Google Search Console  
-Requires at least: 4.0
-Tested up to: 4.5.3
-Stable tag: 1.5.0
+Tags: Google Webmaster Tools, Google Search Console, Meta Tag Verification, Verify Webmaster Tools, Verify Google Webmaster Tools, Verify Search Console, Verify Google Search Console 
+  
+Requires at least: 3.4
+Tested up to: 4.6.1
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Enables you to integrate Google Webmaster Tools in your site.
+Adds the verification code of Google Search Console, former Google Webmaster Tools, to your site.
 
 == Description ==
 
-Google Webmaster Tools enables you to add the site verification code to your WordPress site, so that you're able to detect any occuring issues via https://www.google.com/webmasters/tools/.  
+> <strong>Google Search Console</strong><br>
+Google Search Console, former Google Webmaster Tools, does a great job when it comes to check the indexing status of your site.
+
+= SMNTCS Google Webmaster Tools =
+SMNTCS Google Webmaster Tools enables you to add Google Search Console to your website. 
 
 == Installation ==
 
-1. Upload 'smntcs_google_webmaster_tools' to the '/wp-content/plugins/' directory
+1. Upload 'smntcs-google-webmaster-tools' to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to https://www.google.com/webmasters/tools/, add a new site and copy the site verification code of the meta tag
-3. Click on the new menu item "Settings" » "Webmaster Tools" and enter your site verification code 
+4. Go to 'Appearance' » 'Customize' » 'Google Webmaster Tools' and paste your verification code
 
 == Frequently Asked Questions ==
 
@@ -32,15 +37,17 @@ Google Webmaster Tools enables webmasters to detect indexing issues, e.g. if the
 1. Go to Google Webmaster Tools (https://www.google.com/webmasters/tools/)
 2. Log in with your Google account (or create one if you don't have one yet)
 3. Click on 'Add property', fill in your URL and click on continue
-4. Choose 'Alternative methods', select 'HTML Tag', click on 'Show me an example' and copy the content, e.g. '0Hrzzl6cWlRFHRwnPpmVqChFxZP0W1Whrbu373q5xTu'
-5. Go to the backend of your website, navigate to 'Settings' » 'Webmaster Tools' and paste the content you've copied before 
+4. Choose 'Alternative methods', select 'HTML Tag', click on 'Show me an example' and copy the verification code
+5. Go to 'Appearance' » 'Customize' » 'Google Webmaster Tools' and paste your verification code
 
 == Screenshots ==
 
-1. Upload and activate the plugin
-2. Provide site verification code
+1. Paste you Google Analytics tracking code in the customizer
 
 == Changelog ==
+
+= 2.0 =
+* Use Customizer instead of options page
 
 = 1.5.0 =
 * Add donation link
