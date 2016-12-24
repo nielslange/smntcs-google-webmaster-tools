@@ -2,10 +2,9 @@
 Contributors: nielslange
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FQTBXW5CCFWTY
 Tags: Google Webmaster Tools, Google Search Console, Meta Tag Verification, Verify Webmaster Tools, Verify Google Webmaster Tools, Verify Search Console, Verify Google Search Console 
-  
 Requires at least: 3.4
-Tested up to: 4.6.1
-Stable tag: 2.0
+Tested up to: 4.7
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,7 +29,7 @@ SMNTCS Google Webmaster Tools enables you to add Google Search Console to your w
 
 = Why do I need Google Webmaster Tools in first place? =
 
-Google Webmaster Tools enables webmasters to detect indexing issues, e.g. if the Google Bot cannot access the page or if missing pages occur in the search index.
+Google Webmaster Tools enables web masters to detect indexing issues, e.g. if the Google Bot cannot access the page or if missing pages occur in the search index.
 
 = How do I add Google Webmaster Tools to my page? =
 
@@ -40,11 +39,18 @@ Google Webmaster Tools enables webmasters to detect indexing issues, e.g. if the
 4. Choose 'Alternative methods', select 'HTML Tag', click on 'Show me an example' and copy the verification code
 5. Go to 'Appearance' » 'Customize' » 'Google Webmaster Tools' and paste your verification code
 
+= Why am I not able to save the verification code? =
+
+This issue might be caused by a security plugin. If you use a security plugin, e.g. Wordfence, then disable it so save your verification code and activate it once you’re done.
+
 == Screenshots ==
 
 1. Paste you Google Analytics tracking code in the customizer
 
 == Changelog ==
+
+= 2.0.1 =
+* Add FAQ
 
 = 2.0 =
 * Use Customizer instead of options page

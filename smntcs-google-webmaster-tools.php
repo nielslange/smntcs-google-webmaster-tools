@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: SMNTCS Google Webmaster Tools
-Description: Adds Google Webmaster Tools to your site
-Version: 2.0
+Description: Adds <a href="https://www.google.com/webmasters/tools/">Google Webmaster Tools</a> to your site.
+Version: 2.0.1
 Author: Niels Lange
 Author URI: http://www.nielslange.de
 Text Domain: smntcs-google-webmaster-tools
@@ -45,7 +45,6 @@ function smntcs_google_webmaster_tools_register_customize( $wp_customize ) {
 	));
 
 	$wp_customize->add_setting( 'smntcs_google_webmaster_tools_tracking_code', array(
-		'default' 	=> '',
 		'type'		=> 'option',
 	));
 
