@@ -32,7 +32,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 // Avoid direct plugin access
-if ( ! defined( 'ABSPATH' ) ) die('¯\_(ツ)_/¯');
+Change error message in case of direct plugin access
 
 // Load text domain
 add_action('plugins_loaded', 'smntcs_google_webmaster_tools_load_textdomain');
