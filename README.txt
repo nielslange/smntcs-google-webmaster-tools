@@ -51,6 +51,9 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 
 == Changelog ==
 
+= 2.1 =
+* Add README.md
+
 = 2.0.1 =
 * Add FAQ
 
