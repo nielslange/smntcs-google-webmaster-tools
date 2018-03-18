@@ -52,9 +52,6 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 == Changelog ==
 
 = 2.0.1 =
-* Add README.md
-
-= 2.0.1 =
 * Add FAQ
 
 = 2.0 =
@@ -69,10 +66,10 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 = 1.3.0 =
 * Add settings link
 * Update Dutch translation
-* Update German translation
+* Update German translation 
 
 = 1.2.0 =
-* Store translations outside plugin
+* Store translations outside plugin 
 
 = 1.1.0 =
 * Make plugin translation ready
