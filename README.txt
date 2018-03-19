@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: Google Webmaster Tools, Google Search Console, Meta Tag Verification, Verify Webmaster Tools, Verify Google Webmaster Tools, Verify Search Console, Verify Google Search Console
 Stable tag: 2.1
 Requires at least: 3.4
-Tested up to: 4.7
+Tested up to: 4.9
 License: GPL2+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,7 +18,7 @@ Google Search Console, former Google Webmaster Tools, does a great job when it c
 
 = SMNTCS Google Webmaster Tools =
 
-SMNTCS Google Webmaster Tools enables you to add Google Search Console to your website. 
+SMNTCS Google Webmaster Tools enables you to add Google Search Console to your website.
 
 == Installation ==
 
@@ -69,10 +69,10 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 = 1.3.0 =
 * Add settings link
 * Update Dutch translation
-* Update German translation 
+* Update German translation
 
 = 1.2.0 =
-* Store translations outside plugin 
+* Store translations outside plugin
 
 = 1.1.0 =
 * Make plugin translation ready
