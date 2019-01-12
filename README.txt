@@ -3,9 +3,9 @@
 Contributors: nielslange
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FQTBXW5CCFWTY
 Tags: Google Webmaster Tools, Google Search Console, Meta Tag Verification, Verify Webmaster Tools, Verify Google Webmaster Tools, Verify Search Console, Verify Google Search Console
-Stable tag: 2.1
+Version: 2.2
 Requires at least: 3.4
-Tested up to: 4.9
+Tested up to: 5.0
 License: GPL2+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,37 +51,37 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 
 == Changelog ==
 
-= 2.1 =
+= 2.2 =
 * Add README.md
 
-= 2.0.1 =
+= 2.1 =
 * Add FAQ
 
 = 2.0 =
 * Use Customizer instead of options page
 
-= 1.5.0 =
+= 1.6 =
 * Add donation link
 
-= 1.4.0 =
+= 1.5 =
 * Update textdomain
 
-= 1.3.0 =
+= 1.4 =
 * Add settings link
 * Update Dutch translation
 * Update German translation
 
-= 1.2.0 =
+= 1.3 =
 * Store translations outside plugin
 
-= 1.1.0 =
+= 1.2 =
 * Make plugin translation ready
 * Add Dutch translation
 * Add German translation
 
-= 1.0.1 =
+= 1.1 =
 * Fix broken file path
 * Add FAQs
 
-= 1.0.0 =
+= 1.0 =
 * Initial release
