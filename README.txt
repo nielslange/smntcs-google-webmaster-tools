@@ -2,10 +2,10 @@
 
 Contributors: nielslange
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FQTBXW5CCFWTY
-Tags: Google Webmaster Tools, Google Search Console, Meta Tag Verification, Verify Webmaster Tools, Verify Google Webmaster Tools, Verify Search Console, Verify Google Search Console
-Version: 2.2
+Tags: Google Webmaster Tools, Google Search Console
+Version: 2.3
 Requires at least: 3.4
-Tested up to: 5.0
+Tested up to: 5.2
 License: GPL2+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,10 +22,13 @@ SMNTCS Google Webmaster Tools enables you to add Google Search Console to your w
 
 == Installation ==
 
-1. Upload 'smntcs-google-webmaster-tools' to the '/wp-content/plugins/' directory
+1. Upload _smntcs-google-webmaster-tools_ to the _/wp-content/plugins/_ directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to https://www.google.com/webmasters/tools/, add a new site and copy the site verification code of the meta tag
-4. Go to 'Appearance' » 'Customize' » 'Google Webmaster Tools' and paste your verification code
+3. Go to https://search.google.com/search-console/welcome
+4. Provide your URL in the section _URL prefix_, e.g. https://example.com, and click on _Continue_
+5. Now, open the section _HTML tag_ within the section _Other verification methods_
+6. Copy the meta tag, e.g. `<meta name="google-site-verification" content="BeFze6w_rrIm1NFPKJ-pDDbkf0oeqrtC5sjqb6WzCoE" />`
+7. Go to [Google Webmaster Tools](/wp-admin/customize.php?autofocus[control]=smntcs_google_webmaster_tools_tracking_code) and paste your verification code
 
 == Frequently Asked Questions ==
 
@@ -35,11 +38,11 @@ Google Webmaster Tools enables web masters to detect indexing issues, e.g. if th
 
 = How do I add Google Webmaster Tools to my page? =
 
-1. Go to Google Webmaster Tools (https://www.google.com/webmasters/tools/)
-2. Log in with your Google account (or create one if you don't have one yet)
-3. Click on 'Add property', fill in your URL and click on continue
-4. Choose 'Alternative methods', select 'HTML Tag', click on 'Show me an example' and copy the verification code
-5. Go to 'Appearance' » 'Customize' » 'Google Webmaster Tools' and paste your verification code
+1. Go to https://search.google.com/search-console/welcome
+2. Provide your URL in the section _URL prefix_, e.g. https://example.com, and click on _Continue_
+3. Now, open the section _HTML tag_ within the section _Other verification methods_
+4. Copy the meta tag, e.g. `<meta name="google-site-verification" content="BeFze6w_rrIm1NFPKJ-pDDbkf0oeqrtC5sjqb6WzCoE" />`
+5. Go to [Google Webmaster Tools](/wp-admin/customize.php?autofocus[control]=smntcs_google_webmaster_tools_tracking_code) and paste your verification code
 
 = Why am I not able to save the verification code? =
 
@@ -47,9 +50,14 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 
 == Screenshots ==
 
-1. Paste you Google Analytics tracking code in the customizer
+1. Provide your URL in the section _URL prefix_
+2. Copy the meta tag from  the section _HTML tag_
+3. Paste you Google Analytics tracking code in the customizer
 
 == Changelog ==
+
+= 2.3 =
+* Update installation instructions
 
 = 2.2 =
 * Add README.md
