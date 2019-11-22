@@ -27,6 +27,9 @@ You can find the plugin on https://wordpress.org/plugins/smntcs-google-webmaster
 
 ## Changelog
 
+### 2.4
+* Test up to 5.3
+
 ### 2.3
 * Update installation instructions
 

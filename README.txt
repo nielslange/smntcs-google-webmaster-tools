@@ -3,11 +3,11 @@
 Contributors: nielslange
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FQTBXW5CCFWTY
 Tags: Google Webmaster Tools, Google Search Console
-Version: 2.3
+Version: 2.4
 Requires at least: 3.4
-Tested up to: 5.2
-License: GPL2+
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tested up to: 5.3
+License: GPL3+
+License URI: http://www.gnu.org/licenses/gpl.html
 
 Adds the verification code of Google Search Console, former Google Webmaster Tools, to your site.
 
@@ -55,6 +55,9 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 3. Paste you Google Analytics tracking code in the customizer
 
 == Changelog ==
+
+= 2.4 =
+* Test up to 5.3
 
 = 2.3 =
 * Update installation instructions
