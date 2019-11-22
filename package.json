@@ -1,0 +1,26 @@
+{
+	"name": "smntcs-google-webmaster-tools",
+	"version": "1.0.0",
+	"description": "Adds the verification code of Google Search Console, former Google Webmaster Tools, to your site.",
+	"author": "Niels Lange",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"Plugin",
+		"SMNTCS Google Webmaster Tools"
+	],
+	"homepage": "https://github.com/nielslange/smntcs-google-webmaster-tools#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nielslange/smntcs-google-webmaster-tools.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nielslange/smntcs-google-webmaster-tools/issues"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^5.0.0"
+	},
+	"scripts": {
+		"lint:pkg-json": "wp-scripts lint-pkg-json"
+	}
+}

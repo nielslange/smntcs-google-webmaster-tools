@@ -22,11 +22,11 @@ SMNTCS Google Webmaster Tools enables you to add Google Search Console to your w
 
 == Installation ==
 
-1. Upload _smntcs-google-webmaster-tools_ to the _/wp-content/plugins/_ directory
+1. Upload `smntcs-google-webmaster-tools` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the _Plugins_ menu in WordPress
 3. Go to https://search.google.com/search-console/welcome
-4. Provide your URL in the section _URL prefix_, e.g. https://example.com, and click on _Continue_
-5. Now, open the section _HTML tag_ within the section _Other verification methods_
+4. Provide your URL in the section `URL prefix`, e.g. https://example.com, and click on `Continue`
+5. Now, open the section `HTML tag` within the section `Other verification methods`
 6. Copy the meta tag, e.g. `<meta name="google-site-verification" content="BeFze6w_rrIm1NFPKJ-pDDbkf0oeqrtC5sjqb6WzCoE" />`
 7. Go to [Google Webmaster Tools](/wp-admin/customize.php?autofocus[control]=smntcs_google_webmaster_tools_tracking_code) and paste your verification code
 
