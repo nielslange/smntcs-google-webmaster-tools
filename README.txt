@@ -3,9 +3,9 @@
 Contributors: nielslange
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FQTBXW5CCFWTY
 Tags: Google Webmaster Tools, Google Search Console
-Version: 2.4
+Version: 2.5
 Requires at least: 3.4
-Tested up to: 5.3
+Tested up to: 5.4
 License: GPL3+
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -56,43 +56,47 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 
 == Changelog ==
 
+= 2.5 =
+- [Add testing](https://github.com/nielslange/smntcs-google-webmaster-tools/issues/3)
+- Test up to 5.4
+
 = 2.4 =
-* Test up to 5.3
+- Test up to 5.3
 
 = 2.3 =
-* Update installation instructions
+- Update installation instructions
 
 = 2.2 =
-* Add README.md
+- Add README.md
 
 = 2.1 =
-* Add FAQ
+- Add FAQ
 
 = 2.0 =
-* Use Customizer instead of options page
+- Use Customizer instead of options page
 
 = 1.6 =
-* Add donation link
+- Add donation link
 
 = 1.5 =
-* Update textdomain
+- Update textdomain
 
 = 1.4 =
-* Add settings link
-* Update Dutch translation
-* Update German translation
+- Add settings link
+- Update Dutch translation
+- Update German translation
 
 = 1.3 =
-* Store translations outside plugin
+- Store translations outside plugin
 
 = 1.2 =
-* Make plugin translation ready
-* Add Dutch translation
-* Add German translation
+- Make plugin translation ready
+- Add Dutch translation
+- Add German translation
 
 = 1.1 =
-* Fix broken file path
-* Add FAQs
+- Fix broken file path
+- Add FAQs
 
 = 1.0 =
-* Initial release
+- Initial release
