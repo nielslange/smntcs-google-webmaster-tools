@@ -18,9 +18,11 @@
 		"url": "https://github.com/nielslange/smntcs-google-webmaster-tools/issues"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^5.0.0"
+		"@wordpress/scripts": "^5.0.0",
+		"cypress": "^4.5.0"
 	},
 	"scripts": {
-		"lint:pkg-json": "wp-scripts lint-pkg-json"
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"test": "cypress run --headless --browser chrome"
 	}
 }
