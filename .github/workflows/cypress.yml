@@ -1,9 +1,5 @@
 name: Run Cypress tests
-on:
-  push:
-    branches: 
-      - fix/*
-      - update/*
+on: [push]
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
