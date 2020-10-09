@@ -9,6 +9,7 @@ cache:
     - $HOME/.composer/cache/files
     # Cache directory for more recent Composer versions.
     - $HOME/.cache/composer/files
+  npm: false
 
 language:
   - php
@@ -18,17 +19,18 @@ php:
   - 7.0
   - 7.1
   - 7.2
-  - "7.4snapshot"
+  - 7.3
+  # - "7.4snapshot"
 
 matrix:
   fast_finish: true
   include:
-    - php: 7.3
+    - php: 7.4
       env: PHPCS=1
 
 allow_failures:
   # Allow failures for unstable builds.
-  - php: "7.4snapshot"
+  # - php: "7.4snapshot"
 
 before_install:
   # Speed up build time by disabling Xdebug.
