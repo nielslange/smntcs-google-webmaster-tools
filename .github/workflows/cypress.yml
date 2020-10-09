@@ -1,8 +1,12 @@
 name: Run Cypress tests headless in Chrome
-on: [push]
+on:
+  push:
+    branches: 
+      - fix/*
+      - update/*
 jobs:
   cypress-run:
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: cypress-io/github-action@v2
