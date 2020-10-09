@@ -1,4 +1,4 @@
-name: Chrome headless
+name: Run Cypress tests headless in Chrome
 on: [push]
 jobs:
   cypress-run:
