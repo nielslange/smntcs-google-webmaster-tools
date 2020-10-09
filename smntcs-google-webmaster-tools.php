@@ -24,7 +24,7 @@
  * Avoid direct plugin access
  */
 if ( ! defined( 'ABSPATH' ) ) {
-	die( '¯\_(ツ)_/¯' );
+	exit; // Exit if accessed directly.
 }
 
 /**
