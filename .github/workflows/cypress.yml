@@ -1,4 +1,4 @@
-name: Run Cypress tests headless in Chrome
+name: Run Cypress tests
 on:
   push:
     branches: 
