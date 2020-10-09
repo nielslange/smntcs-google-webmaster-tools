@@ -3,9 +3,9 @@
 Contributors: nielslange
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FQTBXW5CCFWTY
 Tags: Google Webmaster Tools, Google Search Console
-Version: 2.5
+Version: 2.6
 Requires at least: 3.4
-Tested up to: 5.4
+Tested up to: 5.5
 License: GPL3+
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -55,6 +55,9 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 3. Paste you Google Analytics tracking code in the customizer
 
 == Changelog ==
+
+= 2.6 =
+- Test up to 5.5
 
 = 2.5 =
 - [Add testing](https://github.com/nielslange/smntcs-google-webmaster-tools/issues/3)
