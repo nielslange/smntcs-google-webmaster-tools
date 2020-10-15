@@ -19,7 +19,7 @@
 	},
 	"devDependencies": {
 		"@wordpress/env": "^2.1.0",
-		"cypress": "^5.3.0"
+		"cypress": "^5.4.0"
 	},
 	"scripts": {
 		"test-gui": "cypress open",
