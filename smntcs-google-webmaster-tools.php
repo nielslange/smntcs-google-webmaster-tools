@@ -9,6 +9,7 @@
  * Domain Path: /languages/
  * Version: 2.7
  * Requires at least: 3.4
+ * Requires PHP: 7.0
  * Tested up to: 5.7
  * License: GPL3+
  * License URI: https://www.gnu.org/licenses/gpl.html
@@ -39,11 +40,12 @@ add_action( 'plugins_loaded', 'smntcs_google_webmaster_tools_load_textdomain' );
  * Add settings link on plugin page
  *
  * @param array $links The original array with customizer links.
- * @return array $links The updated array with customizer links.
+ *
+ * @return array The updated array with customizer links.
  */
-function smntcs_google_webmaster_tools_settings_link( $links ) {
+function smntcs_google_webmaster_tools_settings_link( array $links ) {
 	$admin_url     = admin_url( 'customize.php?autofocus[control]=smntcs_google_webmaster_tools_tracking_code' );
-	$settings_link = '<a href="' . $admin_url . '">' . __( 'Settings', 'smntcs-google-webmaster-tools' ) . '</a>';
+	$settings_link = sprintf( '<a href="%s">' . __( 'Settings', 'smntcs-google-webmaster-tools' ) . '</a>', $admin_url );
 	array_unshift( $links, $settings_link );
 
 	return $links;
@@ -54,9 +56,10 @@ add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'smntcs_google
  * Add Adobe Typekit Fonts to WordPress Customizer
  *
  * @param WP_Customize_Manager $wp_customize The customizer object.
+ *
  * @return void
  */
-function smntcs_google_webmaster_tools_register_customize( $wp_customize ) {
+function smntcs_google_webmaster_tools_register_customize( WP_Customize_Manager $wp_customize ) {
 	$wp_customize->add_section(
 		'smntcs_google_webmaster_tools_section',
 		array(
@@ -77,6 +80,7 @@ function smntcs_google_webmaster_tools_register_customize( $wp_customize ) {
 		array(
 			'label'   => __( 'Verification code', 'smntcs-google-webmaster-tools' ),
 			'section' => 'smntcs_google_webmaster_tools_section',
+
 			'type'    => 'textarea',
 		)
 	);
@@ -84,7 +88,7 @@ function smntcs_google_webmaster_tools_register_customize( $wp_customize ) {
 add_action( 'customize_register', 'smntcs_google_webmaster_tools_register_customize' );
 
 /**
- * Load Adobe Typekit Fonts code and custom CSS
+ * Add Google Webmaster Tools code to DOM.
  *
  * @return void
  */

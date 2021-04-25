@@ -1,36 +1,39 @@
 {
 	"name": "nielslange/smntcs-google-webmaster-tools",
-	"type": "plugin",
 	"description": "Adds the verification code of Google Search Console, former Google Webmaster Tools, to your site.",
+	"homepage": "https://github.com/nielslange/smntcs-google-webmaster-tools",
+	"support": {
+		"issues": "https://github.com/nielslange/smntcs-google-webmaster-tools/issues",
+		"source": "https://github.com/nielslange/smntcs-google-webmaster-tools"
+	},
+	"type": "wordpress-plugin",
 	"keywords": [
 		"WordPress",
 		"Plugin",
 		"SMNTCS Private Site"
 	],
-	"homepage": "https://github.com/nielslange/smntcs-google-webmaster-tools",
 	"license": "GPL-3.0-or-later",
 	"authors": [
 		{
-			"name": "Contributors",
-			"homepage": "https://github.com/nielslange/smntcs-google-webmaster-tools/graphs/contributors"
+			"name": "Niels Lange",
+			"email": "info@nielslange.de"
 		}
 	],
 	"require": {
-		"php": ">=5.6"
+		"php": ">=7.0"
 	},
 	"require-dev": {
-		"dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
-		"jakub-onderka/php-parallel-lint": "^1.0",
-		"phpcompatibility/php-compatibility": "*",
-		"wptrt/wpthemereview": "^0.2.1"
+		"humanmade/psalm-plugin-wordpress": "^2.0",
+		"overtrue/phplint": "^2.3",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"squizlabs/php_codesniffer": "^3.6",
+		"vimeo/psalm": "^4.7",
+		"wp-coding-standards/wpcs": "^2.3"
 	},
 	"scripts": {
-		"checkcs": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --runtime-set testVersion 5.6-",
-		"fixcs": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf --runtime-set testVersion 5.6-",
-		"lint": "@php ./vendor/bin/parallel-lint --exclude .git --exclude vendor ."
-	},
-	"support": {
-		"issues": "https://github.com/nielslange/smntcs-google-webmaster-tools/issues",
-		"source": "https://github.com/nielslange/smntcs-google-webmaster-tools"
+		"cbf": "phpcbf --standard=.phpcs.xml .",
+		"cs": "phpcs --standard=.phpcs.xml .",
+		"lint": "phplint",
+		"psalm": "psalm --no-cache"
 	}
 }
