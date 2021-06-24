@@ -19,7 +19,7 @@
 	},
 	"devDependencies": {
 		"@wordpress/env": "^2.1.0",
-		"cypress": "^6.8.0"
+		"cypress": "^7.6.0"
 	},
 	"scripts": {
 		"cypress": "cypress",
