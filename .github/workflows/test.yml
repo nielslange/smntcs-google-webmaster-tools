@@ -127,6 +127,9 @@ jobs:
   Cypress:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
       - name: Install node
         uses: actions/setup-node@v2
         with:
