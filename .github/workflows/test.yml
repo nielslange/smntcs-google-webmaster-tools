@@ -1,5 +1,5 @@
 name: Run PHPCS, PHPLint, Psalm and Cypress
-on: [push]
+on: [pull_request]
 jobs:
   PHPCS:
     runs-on: ubuntu-latest
