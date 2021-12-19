@@ -2,7 +2,6 @@ name: Run PHPCS
 on: [push]
 jobs:
   test:
-    name: PHP coding standards, linting and static analysis
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
