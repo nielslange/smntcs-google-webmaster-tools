@@ -1,8 +1,7 @@
-name: Run tests
+name: Run PHPLint
 on: [push]
 jobs:
   test:
-    name: PHP coding standards, linting and static analysis
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -39,11 +38,5 @@ jobs:
       - name: Log PHPCS debug information
         run: phpcs -i
 
-      - name: Run PHPCS on all files
-        run: phpcs --standard=phpcs.dist.xml .
-
       - name: Run PHPLint on all files
         run: phplint
-
-      - name: Run psalm on all files
-        run: psalm --no-cache
