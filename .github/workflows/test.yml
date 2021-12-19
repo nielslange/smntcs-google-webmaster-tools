@@ -1,7 +1,7 @@
-name: Run PHPLint
+name: Run Psalm
 on: [push]
 jobs:
-  test:
+  Setup:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -20,6 +20,7 @@ jobs:
           key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: |
             ${{ runner.os }}-composer-
+
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
@@ -31,12 +32,48 @@ jobs:
         run: |
           php --version
           composer --version
+
       - name: Install Composer dependencies
         run: |
           composer install --prefer-dist --no-suggest --no-progress --no-ansi --no-interaction
           echo "${PWD}/vendor/bin" >> $GITHUB_PATH
+
+      - name: Install node
+        uses: actions/setup-node@v2
+        with:
+          node:version: "14"
+
+      - name: Install node dependencies
+        run: npm install
+
+  PHPCS:
+    runs-on: ubuntu-latest
+    steps:
       - name: Log PHPCS debug information
         run: phpcs -i
 
+      - name: Run PHPCS on all files
+        run: phpcs --standard=phpcs.dist.xml .
+
+  PHPLint:
+    runs-on: ubuntu-latest
+    steps:
       - name: Run PHPLint on all files
         run: phplint
+
+  Psalm:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Psalm on all files
+        run: psalm --no-cache
+
+  Cypress:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          start: npm run wp-env start
+          wait-on: "http://localhost:8888"
+          browser: chrome
+          headless: true
