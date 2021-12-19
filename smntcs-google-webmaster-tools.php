@@ -7,10 +7,10 @@
  * Author URI: https://nielslange.de
  * Text Domain: smntcs-google-webmaster-tools
  * Domain Path: /languages/
- * Version: 2.7
+ * Version: 2.8
  * Requires at least: 3.4
  * Requires PHP: 7.3
- * Tested up to: 5.7
+ * Tested up to: 5.8
  * License: GPL2+
  * License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  *

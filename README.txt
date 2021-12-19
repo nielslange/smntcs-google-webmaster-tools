@@ -3,7 +3,7 @@
 Contributors: nielslange
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FQTBXW5CCFWTY
 Tags: Google Webmaster Tools, Google Search Console
-Version: 2.7
+Version: 2.8
 Requires at least: 3.4
 Requires PHP: 7.3
 Tested up to: 5.8
@@ -57,53 +57,57 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 
 == Changelog ==
 
-= 2.7 =
+= 2.8 - 2021-12-19 =
+- [Replace Travis CI with GitHub Actions](https://github.com/nielslange/smntcs-google-webmaster-tools/issues/62)
+- Test up to 5.8
+
+= 2.7 - 2021-04-25 =
 - Test up to 5.7
 
-= 2.6 =
+= 2.6 - 2020-10-09 =
 - Test up to 5.5
 
-= 2.5 =
+= 2.5 - 2020-05-02 =
 - [Add testing](https://github.com/nielslange/smntcs-google-webmaster-tools/issues/3)
 - Test up to 5.4
 
-= 2.4 =
+= 2.4 - 2019-11-22 =
 - Test up to 5.3
 
-= 2.3 =
+= 2.3 - 2019-06-28 =
 - Update installation instructions
 
-= 2.2 =
+= 2.2 - 2018-03-18 =
 - Add README.md
 
-= 2.1 =
+= 2.1 - 2016-12-24 =
 - Add FAQ
 
-= 2.0 =
+= 2.0 - 2016-09-11 =
 - Use Customizer instead of options page
 
-= 1.6 =
+= 1.6 - 2016-07-20 =
 - Add donation link
 
-= 1.5 =
+= 1.5 - 2016-07-20 =
 - Update textdomain
 
-= 1.4 =
+= 1.4 - 2016-07-20 =
 - Add settings link
 - Update Dutch translation
 - Update German translation
 
-= 1.3 =
+= 1.3 - 2016-07-20 =
 - Store translations outside plugin
 
-= 1.2 =
+= 1.2 - 2016-07-20 =
 - Make plugin translation ready
 - Add Dutch translation
 - Add German translation
 
-= 1.1 =
+= 1.1 - 2016-07-20 =
 - Fix broken file path
 - Add FAQs
 
-= 1.0 =
+= 1.0 - 2016-07-20 =
 - Initial release
