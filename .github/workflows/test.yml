@@ -1,4 +1,4 @@
-name: Run Psalm
+name: Run PHPCS, PHPLint, Psalm and Cypress
 on: [push]
 jobs:
   PHPCS:
