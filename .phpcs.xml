@@ -19,7 +19,7 @@
         <exclude name="WordPress.Files.FileName.InvalidClassFileName"/>
     </rule>
 
-    <config name="testVersion" value="7.0-"/>
+    <config name="testVersion" value="7.3-"/>
     <rule ref="PHPCompatibility"/>
 
 </ruleset>

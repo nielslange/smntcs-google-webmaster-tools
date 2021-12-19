@@ -5,9 +5,10 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: Google Webmaster Tools, Google Search Console
 Version: 2.7
 Requires at least: 3.4
-Tested up to: 5.7
-License: GPL3+
-License URI: http://www.gnu.org/licenses/gpl.html
+Requires PHP: 7.3
+Tested up to: 5.8
+License: GPL2+
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 Adds the verification code of Google Search Console, former Google Webmaster Tools, to your site.
 
