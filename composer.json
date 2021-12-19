@@ -32,8 +32,8 @@
 		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1"
 	},
 	"scripts": {
-		"phpcbf": "phpcbf --standard=.phpcs.xml .",
-		"phpcs": "phpcs --standard=.phpcs.xml .",
+		"phpcbf": "phpcbf --standard=phpcs.dist.xml .",
+		"phpcs": "phpcs --standard=phpcs.dist.xml .",
 		"phplint": "phplint",
 		"psalm": "psalm --no-cache"
 	}

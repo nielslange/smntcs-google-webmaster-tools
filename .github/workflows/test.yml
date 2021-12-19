@@ -4,5 +4,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: PHPCS in Action
-        uses: doroshenkoss/phpcs-in-action@0.0.5
+      - uses: actions/checkout@v2
+
+      - name: PHP Code Style (phpcs)
+        uses: chindit/actions-phpcs@master
