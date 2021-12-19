@@ -1,6 +1,5 @@
 {
 	"name": "smntcs-google-webmaster-tools",
-	"version": "1.0.0",
 	"description": "Adds the verification code of Google Search Console, former Google Webmaster Tools, to your site.",
 	"author": "Niels Lange",
 	"license": "GPL-2.0-or-later",
@@ -18,8 +17,8 @@
 		"url": "https://github.com/nielslange/smntcs-google-webmaster-tools/issues"
 	},
 	"devDependencies": {
-		"@wordpress/env": "^2.1.0",
-		"cypress": "^6.8.0"
+		"@wordpress/env": "^4.1",
+		"cypress": "^9.1"
 	},
 	"scripts": {
 		"cypress": "cypress",

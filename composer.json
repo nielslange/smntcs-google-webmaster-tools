@@ -12,7 +12,7 @@
 		"Plugin",
 		"SMNTCS Private Site"
 	],
-	"license": "GPL-3.0-or-later",
+	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
 			"name": "Niels Lange",
@@ -24,16 +24,17 @@
 	},
 	"require-dev": {
 		"humanmade/psalm-plugin-wordpress": "^2.0",
-		"overtrue/phplint": "^2.3",
+		"overtrue/phplint": "2.3.5",
 		"phpcompatibility/phpcompatibility-wp": "^2.1",
 		"squizlabs/php_codesniffer": "^3.6",
-		"vimeo/psalm": "^4.7",
-		"wp-coding-standards/wpcs": "^2.3"
+		"vimeo/psalm": "4.7",
+		"wp-coding-standards/wpcs": "^2.3",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1"
 	},
 	"scripts": {
-		"cbf": "phpcbf --standard=.phpcs.xml .",
-		"cs": "phpcs --standard=.phpcs.xml .",
-		"lint": "phplint",
+		"phpcbf": "phpcbf --standard=phpcs.dist.xml .",
+		"phpcs": "phpcs --standard=phpcs.dist.xml .",
+		"phplint": "phplint",
 		"psalm": "psalm --no-cache"
 	}
 }

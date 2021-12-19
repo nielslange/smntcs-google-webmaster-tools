@@ -9,10 +9,10 @@
  * Domain Path: /languages/
  * Version: 2.7
  * Requires at least: 3.4
- * Requires PHP: 7.0
+ * Requires PHP: 7.3
  * Tested up to: 5.7
- * License: GPL3+
- * License URI: https://www.gnu.org/licenses/gpl.html
+ * License: GPL2+
+ * License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  *
  * @category   Plugin
  * @package    WordPress
@@ -30,6 +30,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /**
  * Load textdomain
+ *
+ * @return void
  */
 function smntcs_google_webmaster_tools_load_textdomain() {
 	load_plugin_textdomain( 'smntcs-google-webmaster-tools', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
