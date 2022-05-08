@@ -21,9 +21,12 @@
 		"cypress": "^9.1"
 	},
 	"scripts": {
-		"cypress": "cypress",
-		"test-gui": "cypress open",
-		"test": "cypress run --headless --browser chrome",
-		"wp-env": "wp-env"
+		"phpcbf": "composer phpcbf",
+		"phpcs": "composer phpcs",
+		"phplint": "composer phplint",
+		"test:e2e": "cypress run --headless --browser chrome",
+		"test:e2e-dev": "cypress open",
+		"wp-env": "wp-env",
+		"wp-env:rc": "wp-env run cli 'wp core update --version=6.0-RC1 && wp core update --version=6.0-RC1 --force'"
 	}
 }
