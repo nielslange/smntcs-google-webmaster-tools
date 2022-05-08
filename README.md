@@ -1,13 +1,13 @@
 # SMNTCS Google Webmaster Tools
 
-[![Support Level](https://img.shields.io/badge/support-active-green.svg)](#support-level)
-[![Build Status](https://api.travis-ci.com/nielslange/smntcs-google-webmaster-tools.svg?branch=master)](https://api.travis-ci.com/nielslange/smntcs-google-webmaster-tools)
-[![GPLv3 License](https://img.shields.io/github/license/nielslange/smntcs-google-webmaster-tools.svg)](https://www.gnu.org/licenses/gpl.html)
-[![Compatible to WordPress version](https://plugintests.com/plugins/smntcs-google-webmaster-tools/wp-badge.svg)](https://plugintests.com/plugins/smntcs-google-webmaster-tools/latest)
-[![Compatible to PHP version](https://plugintests.com/plugins/smntcs-google-webmaster-tools/php-badge.svg)](https://plugintests.com/plugins/smntcs-google-webmaster-tools/latest)
-[![Downloads](https://img.shields.io/wordpress/plugin/dt/smntcs-google-webmaster-tools.svg)](https://wordpress.org/plugins/smntcs-google-webmaster-tools/)
-[![Plugin Version](https://img.shields.io/wordpress/plugin/v/smntcs-google-webmaster-tools.svg)](https://wordpress.org/plugins/smntcs-google-webmaster-tools/)
-[![Tag Version](https://img.shields.io/github/tag/nielslange/smntcs-google-webmaster-tools.svg)](https://wordpress.org/plugins/smntcs-google-webmaster-tools/)
+![Support Level](https://img.shields.io/badge/support-active-green.svg)]
+![Build Status](https://github.com/nielslange/smntcs-admin-maintenance/actions/workflows/test.yml/badge.svg)
+![GPLv3 License](https://img.shields.io/github/license/nielslange/smntcs-google-webmaster-tools.svg)]
+![Compatible to WordPress version](https://plugintests.com/plugins/smntcs-google-webmaster-tools/wp-badge.svg)]
+![Compatible to PHP version](https://plugintests.com/plugins/smntcs-google-webmaster-tools/php-badge.svg)]
+![Downloads](https://img.shields.io/wordpress/plugin/dt/smntcs-google-webmaster-tools.svg)]
+![Plugin Version](https://img.shields.io/wordpress/plugin/v/smntcs-google-webmaster-tools.svg)]
+![Tag Version](https://img.shields.io/github/tag/nielslange/smntcs-google-webmaster-tools.svg)]
 
 Adds the verification code of Google Search Console, former Google Webmaster Tools, to your site.
 
