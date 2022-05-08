@@ -3,10 +3,10 @@
 Contributors: nielslange
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FQTBXW5CCFWTY
 Tags: Google Webmaster Tools, Google Search Console
-Version: 2.8
+Version: 2.9
 Requires at least: 3.4
-Requires PHP: 7.3
-Tested up to: 5.8
+Requires PHP: 5.6
+Tested up to: 6.0
 License: GPL2+
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -56,6 +56,9 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 3. Paste you Google Analytics tracking code in the customizer
 
 == Changelog ==
+
+= 2.9 - 2022-05-09 =
+- Test up to 6.0
 
 = 2.8 - 2021-12-19 =
 - [Replace Travis CI with GitHub Actions](https://github.com/nielslange/smntcs-google-webmaster-tools/issues/62)

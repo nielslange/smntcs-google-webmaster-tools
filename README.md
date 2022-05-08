@@ -27,6 +27,10 @@ You can find the plugin on https://wordpress.org/plugins/smntcs-google-webmaster
 
 ## Changelog
 
+### 2.9 - 2022-05-09
+
+-   Test up to 6.0
+
 ### 2.8 - 2021-12-19
 
 -   [Replace Travis CI with GitHub Actions](https://github.com/nielslange/smntcs-google-webmaster-tools/issues/62)
