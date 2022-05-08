@@ -24,6 +24,7 @@
 		"phpcbf": "composer phpcbf",
 		"phpcs": "composer phpcs",
 		"phplint": "composer phplint",
+		"psalm": "composer psalm --no-cache",
 		"test:e2e": "cypress run --headless --browser chrome",
 		"test:e2e-dev": "cypress open",
 		"wp-env": "wp-env",
