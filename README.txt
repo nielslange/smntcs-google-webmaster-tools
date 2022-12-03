@@ -1,14 +1,13 @@
 === SMNTCS Google Webmaster Tools ===
 
-Contributors: nielslange
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FQTBXW5CCFWTY
-Tags: Google Webmaster Tools, Google Search Console
-Version: 2.9
-Requires at least: 3.4
-Requires PHP: 5.6
-Tested up to: 6.0
-License: GPL2+
-License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Contributors:       nielslange
+Tags:               Google Webmaster Tools, Google Search Console
+Stable tag:         3.0
+Tested up to:       6.1
+Requires PHP:       5.6
+Requires at least:  3.4
+License:            GPL v2 or later
+License URI:        https://www.gnu.org/licenses/gpl-2.0.html
 
 Adds the verification code of Google Search Console, former Google Webmaster Tools, to your site.
 
@@ -57,60 +56,81 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 
 == Changelog ==
 
-= 2.9 - 2022-05-09 =
-- Test up to 6.0
+= 3.0 (2022.12.03) =
 
-= 2.8 - 2021-12-19 =
-- [Replace Travis CI with GitHub Actions](https://github.com/nielslange/smntcs-google-webmaster-tools/issues/62)
-- Test up to 5.8
+-   Test up to 6.1
 
-= 2.7 - 2021-04-25 =
-- Test up to 5.7
+= 2.9 (2022.05.09) =
 
-= 2.6 - 2020-10-09 =
-- Test up to 5.5
+-   Test up to 6.0
 
-= 2.5 - 2020-05-02 =
-- [Add testing](https://github.com/nielslange/smntcs-google-webmaster-tools/issues/3)
-- Test up to 5.4
+= 2.8 (2021.12.19) =
 
-= 2.4 - 2019-11-22 =
-- Test up to 5.3
+-   [Replace Travis CI with GitHub Actions](https://github.com/nielslange/smntcs-google-webmaster-tools/issues/62)
+-   Test up to 5.8
 
-= 2.3 - 2019-06-28 =
-- Update installation instructions
+= 2.7 (2021.04.25) =
 
-= 2.2 - 2018-03-18 =
-- Add README.md
+-   Test up to 5.7
 
-= 2.1 - 2016-12-24 =
-- Add FAQ
+= 2.6 (2020.10.09) =
 
-= 2.0 - 2016-09-11 =
-- Use Customizer instead of options page
+-   Test up to 5.5
 
-= 1.6 - 2016-07-20 =
-- Add donation link
+= 2.5 (2020.05.02) =
 
-= 1.5 - 2016-07-20 =
-- Update textdomain
+-   [Add testing](https://github.com/nielslange/smntcs-google-webmaster-tools/issues/3)
+-   Test up to 5.4
 
-= 1.4 - 2016-07-20 =
-- Add settings link
-- Update Dutch translation
-- Update German translation
+= 2.4 (2019.11.22) =
 
-= 1.3 - 2016-07-20 =
-- Store translations outside plugin
+-   Test up to 5.3
 
-= 1.2 - 2016-07-20 =
-- Make plugin translation ready
-- Add Dutch translation
-- Add German translation
+= 2.3 (2019.06.28) =
 
-= 1.1 - 2016-07-20 =
-- Fix broken file path
-- Add FAQs
+-   Update installation instructions
 
-= 1.0 - 2016-07-20 =
-- Initial release
+= 2.2 (2018.03.18) =
+
+-   Add README.md
+
+= 2.1 (2016.12.24) =
+
+-   Add FAQ
+
+= 2.0 (2016.09.11) =
+
+-   Use Customizer instead of options page
+
+= 1.6 (2016.07.20) =
+
+-   Add donation link
+
+= 1.5 (2016.07.20) =
+
+-   Update textdomain
+
+= 1.4 (2016.07.20) =
+
+-   Add settings link
+-   Update Dutch translation
+-   Update German translation
+
+= 1.3 (2016.07.20) =
+
+-   Store translations outside plugin
+
+= 1.2 (2016.07.20) =
+
+-   Make plugin translation ready
+-   Add Dutch translation
+-   Add German translation
+
+= 1.1 (2016.07.20) =
+
+-   Fix broken file path
+-   Add FAQs
+
+= 1.0 (2016.07.20) =
+
+-   Initial release

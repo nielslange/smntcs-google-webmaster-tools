@@ -1,31 +1,21 @@
 <?php
 /**
- * Plugin Name: SMNTCS Google Webmaster Tools
- * Plugin URI: https://github.com/nielslange/smntcs-google-webmaster-tools
- * Description: Adds <a href="https://www.google.com/webmasters/tools/">Google Webmaster Tools</a> to your site
- * Author: Niels Lange
- * Author URI: https://nielslange.de
- * Text Domain: smntcs-google-webmaster-tools
- * Domain Path: /languages/
- * Version: 2.9
- * Requires at least: 3.4
- * Requires PHP: 5.6
- * License: GPL2+
- * License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * Plugin Name:           SMNTCS Google Webmaster Tools
+ * Plugin URI:            https://github.com/nielslange/smntcs-google-webmaster-tools
+ * Description:           Adds <a href="https://www.google.com/webmasters/tools/">Google Webmaster Tools</a> to your site
+ * Author:                Niels Lange
+ * Author URI:            https://nielslange.de
+ * Text Domain:           smntcs-google-webmaster-tools
+ * Version:               3.0
+ * Requires PHP:          5.6
+ * Requires at least:     3.4
+ * License:               GPL v2 or later
+ * License URI:           https://www.gnu.org/licenses/gpl-2.0.html
  *
- * @category   Plugin
- * @package    WordPress
- * @subpackage SMNTCS Google Webmaster Tools
- * @author     Niels Lange <info@nielslange.de>
- * @license    http://opensource.org/licenses/gpl-license.php GNU Public License
+ * @package SMNTCS Google Webmaster Tools
  */
 
-/**
- * Avoid direct plugin access
- */
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Load textdomain

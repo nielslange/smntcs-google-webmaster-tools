@@ -27,77 +27,81 @@ You can find the plugin on https://wordpress.org/plugins/smntcs-google-webmaster
 
 ## Changelog
 
-### 2.9 - 2022-05-09
+### 3.0 (2022.12.03)
+
+-   Test up to 6.1
+
+### 2.9 (2022.05.09)
 
 -   Test up to 6.0
 
-### 2.8 - 2021-12-19
+### 2.8 (2021.12.19)
 
 -   [Replace Travis CI with GitHub Actions](https://github.com/nielslange/smntcs-google-webmaster-tools/issues/62)
 -   Test up to 5.8
 
-### 2.7 - 2021-04-25
+### 2.7 (2021.04.25)
 
 -   Test up to 5.7
 
-### 2.6 - 2020-10-09
+### 2.6 (2020.10.09)
 
 -   Test up to 5.5
 
-### 2.5 - 2020-05-02
+### 2.5 (2020.05.02)
 
 -   [Add testing](https://github.com/nielslange/smntcs-google-webmaster-tools/issues/3)
 -   Test up to 5.4
 
-### 2.4 - 2019-11-22
+### 2.4 (2019.11.22)
 
 -   Test up to 5.3
 
-### 2.3 - 2019-06-28
+### 2.3 (2019.06.28)
 
 -   Update installation instructions
 
-### 2.2 - 2018-03-18
+### 2.2 (2018.03.18)
 
 -   Add README.md
 
-### 2.1 - 2016-12-24
+### 2.1 (2016.12.24)
 
 -   Add FAQ
 
-### 2.0 - 2016-09-11
+### 2.0 (2016.09.11)
 
 -   Use Customizer instead of options page
 
-### 1.6 - 2016-07-20
+### 1.6 (2016.07.20)
 
 -   Add donation link
 
-### 1.5 - 2016-07-20
+### 1.5 (2016.07.20)
 
 -   Update textdomain
 
-### 1.4 - 2016-07-20
+### 1.4 (2016.07.20)
 
 -   Add settings link
 -   Update Dutch translation
 -   Update German translation
 
-### 1.3 - 2016-07-20
+### 1.3 (2016.07.20)
 
 -   Store translations outside plugin
 
-### 1.2 - 2016-07-20
+### 1.2 (2016.07.20)
 
 -   Make plugin translation ready
 -   Add Dutch translation
 -   Add German translation
 
-### 1.1 - 2016-07-20
+### 1.1 (2016.07.20)
 
 -   Fix broken file path
 -   Add FAQs
 
-### 1.0 - 2016-07-20
+### 1.0 (2016.07.20)
 
 -   Initial release
