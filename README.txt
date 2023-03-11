@@ -2,8 +2,8 @@
 
 Contributors:       nielslange
 Tags:               Google Webmaster Tools, Google Search Console
-Stable tag:         3.0
-Tested up to:       6.1
+Stable tag:         3.1
+Tested up to:       6.2
 Requires PHP:       5.6
 Requires at least:  3.4
 License:            GPL v2 or later
@@ -55,6 +55,10 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 3. Paste you Google Analytics tracking code in the customizer
 
 == Changelog ==
+
+= 3.1 (2023.03.11) =
+
+-   Test up to 6.2
 
 = 3.0 (2022.12.03) =
 

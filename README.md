@@ -1,7 +1,8 @@
 # SMNTCS Google Webmaster Tools
 
 ![Support Level](https://img.shields.io/badge/support-active-green.svg)] \\
-![Build Status](https://github.com/nielslange/smntcs-admin-maintenance/actions/workflows/test.yml/badge.svg) \\
+![Build Status](https://github.com/nielslange/smntcs-google-webmaster-tools/actions/workflows/test.yml/badge.svg) \\
+![Deploy Status](https://github.com/nielslange/smntcs-google-webmaster-tools/actions/workflows/deploy.yml/badge.svg) \\
 ![GPLv3 License](https://img.shields.io/github/license/nielslange/smntcs-google-webmaster-tools.svg)] \\
 ![Compatible to WordPress version](https://plugintests.com/plugins/smntcs-google-webmaster-tools/wp-badge.svg)] \\
 ![Compatible to PHP version](https://plugintests.com/plugins/smntcs-google-webmaster-tools/php-badge.svg)] \\
@@ -26,6 +27,10 @@ Adds the verification code of Google Search Console, former Google Webmaster Too
 You can find the plugin on https://wordpress.org/plugins/smntcs-google-webmaster-tools/.
 
 ## Changelog
+
+### 3.1 (2023.03.11)
+
+-   Test up to 6.2
 
 ### 3.0 (2022.12.03)
 
