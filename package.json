@@ -17,7 +17,7 @@
 		"url": "https://github.com/nielslange/smntcs-google-webmaster-tools/issues"
 	},
 	"devDependencies": {
-		"@wordpress/env": "^4.9",
+		"@wordpress/env": "^5.13",
 		"cypress": "^9.1"
 	},
 	"scripts": {
