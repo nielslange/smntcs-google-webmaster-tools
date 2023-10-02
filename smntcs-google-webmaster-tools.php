@@ -6,7 +6,7 @@
  * Author:                Niels Lange
  * Author URI:            https://nielslange.de
  * Text Domain:           smntcs-google-webmaster-tools
- * Version:               3.1
+ * Version:               3.2
  * Requires PHP:          5.6
  * Requires at least:     3.4
  * License:               GPL v2 or later
