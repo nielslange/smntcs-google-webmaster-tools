@@ -1,7 +1,4 @@
 {
 	"core": null,
-	"plugins": [ "." ],
-	"themes": [
-		"https://downloads.wordpress.org/theme/twentytwenty.latest-stable.zip"
-	]
+	"plugins": [ "." ]
 }
