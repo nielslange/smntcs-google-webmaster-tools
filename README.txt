@@ -58,6 +58,7 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 = 3.3 (2024.10.22) =
 
 -   Test up to WordPress 6.6
+-   Migrate Cypress to Playwright
 
 = 3.2 (2023.10.02) =
 

@@ -31,6 +31,7 @@ You can find the plugin on <https://wordpress.org/plugins/smntcs-google-webmaste
 ### 3.3 (2024.10.22)
 
 -   Test up to WordPress 6.6
+-   Migrate Cypress to Playwright
 
 ### 3.2 (2023.10.02)
 
