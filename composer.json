@@ -10,7 +10,7 @@
 	"keywords": [
 		"WordPress",
 		"Plugin",
-		"SMNTCS Private Site"
+		"SMNTCS Google Webmaster Tools"
 	],
 	"license": "GPL-2.0-or-later",
 	"authors": [
@@ -20,16 +20,16 @@
 		}
 	],
 	"require": {
-		"php": ">=7.0"
+		"php": ">=8.1.2"
 	},
 	"require-dev": {
-		"humanmade/psalm-plugin-wordpress": "^2.0",
-		"overtrue/phplint": "2.3.5",
-		"phpcompatibility/phpcompatibility-wp": "^2.1",
-		"squizlabs/php_codesniffer": "^3.6",
-		"vimeo/psalm": "4.7",
-		"wp-coding-standards/wpcs": "^2.3",
-		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1"
+		"dealerdirect/phpcodesniffer-composer-installer": "1.0.0",
+		"humanmade/psalm-plugin-wordpress": "3.1.1",
+		"overtrue/phplint": "9.5.3",
+		"phpcompatibility/phpcompatibility-wp": "2.1",
+		"squizlabs/php_codesniffer": "3.10.3",
+		"vimeo/psalm": "5.26.1",
+		"wp-coding-standards/wpcs": "3.1.0"
 	},
 	"scripts": {
 		"phpcbf": "phpcbf --standard=phpcs.dist.xml .",
@@ -39,6 +39,7 @@
 	},
 	"config": {
 		"allow-plugins": {
+			"composer/package-versions-deprecated": true,
 			"dealerdirect/phpcodesniffer-composer-installer": true
 		}
 	}

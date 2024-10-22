@@ -6,13 +6,13 @@
  * Author:                Niels Lange
  * Author URI:            https://nielslange.de
  * Text Domain:           smntcs-google-webmaster-tools
- * Version:               3.2
+ * Version:               3.3
  * Requires PHP:          5.6
  * Requires at least:     3.4
  * License:               GPL v2 or later
  * License URI:           https://www.gnu.org/licenses/gpl-2.0.html
  *
- * @package SMNTCS Google Webmaster Tools
+ * @package SMNTCS_Google_Webmaster_Tools
  */
 
 defined( 'ABSPATH' ) || exit;

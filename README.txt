@@ -2,8 +2,8 @@
 
 Contributors:       nielslange
 Tags:               Google Webmaster Tools, Google Search Console
-Stable tag:         3.2
-Tested up to:       6.4
+Stable tag:         3.3
+Tested up to:       6.6
 Requires PHP:       5.6
 Requires at least:	3.4
 License:            GPL v2 or later
@@ -13,7 +13,6 @@ Adds the verification code of Google Search Console, former Google Webmaster Too
 
 == Description ==
 
-> <strong>Google Search Console</strong><br>
 Google Search Console, former Google Webmaster Tools, does a great job when it comes to check the indexing status of your site.
 
 = SMNTCS Google Webmaster Tools =
@@ -56,43 +55,47 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 
 == Changelog ==
 
+= 3.3 (2024.10.22) =
+
+-   Test up to WordPress 6.6
+
 = 3.2 (2023.10.02) =
 
--   Test up to 6.4
+-   Test up to WordPress 6.4
 
 = 3.1 (2023.03.11) =
 
--   Test up to 6.2
+-   Test up to WordPress 6.2
 
 = 3.0 (2022.12.03) =
 
--   Test up to 6.1
+-   Test up to WordPress 6.1
 
 = 2.9 (2022.05.09) =
 
--   Test up to 6.0
+-   Test up to WordPress 6.0
 
 = 2.8 (2021.12.19) =
 
 -   [Replace Travis CI with GitHub Actions](https://github.com/nielslange/smntcs-google-webmaster-tools/issues/62)
--   Test up to 5.8
+-   Test up to WordPress 5.8
 
 = 2.7 (2021.04.25) =
 
--   Test up to 5.7
+-   Test up to WordPress 5.7
 
 = 2.6 (2020.10.09) =
 
--   Test up to 5.5
+-   Test up to WordPress 5.5
 
 = 2.5 (2020.05.02) =
 
 -   [Add testing](https://github.com/nielslange/smntcs-google-webmaster-tools/issues/3)
--   Test up to 5.4
+-   Test up to WordPress 5.4
 
 = 2.4 (2019.11.22) =
 
--   Test up to 5.3
+-   Test up to WordPress 5.3
 
 = 2.3 (2019.06.28) =
 
