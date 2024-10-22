@@ -41,6 +41,7 @@ test.describe( 'Admin', () => {
 
 		// Verify the updated meta tag on the front-end
 		await page.goto( 'http://localhost:8888/' );
+		await page.reload();
 		const metaTag = page.locator(
 			`head > meta[name="google-site-verification"]`
 		);
