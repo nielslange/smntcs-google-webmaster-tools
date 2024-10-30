@@ -28,6 +28,10 @@ You can find the plugin on <https://wordpress.org/plugins/smntcs-google-webmaste
 
 ## Changelog
 
+### 3.4 (2024.10.30)
+
+-   Test up to WordPress 6.7
+
 ### 3.3 (2024.10.22)
 
 -   Test up to WordPress 6.6
