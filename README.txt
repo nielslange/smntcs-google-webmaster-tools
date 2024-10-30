@@ -13,11 +13,7 @@ Adds the verification code of Google Search Console, former Google Webmaster Too
 
 == Description ==
 
-Google Search Console, former Google Webmaster Tools, does a great job when it comes to check the indexing status of your site.
-
-= SMNTCS Google Webmaster Tools =
-
-SMNTCS Google Webmaster Tools enables you to add Google Search Console to your website.
+Google Search Console, formerly known as Google Webmaster Tools, is an essential tool for monitoring and maintaining your site's presence in Google search results. The SMNTCS Google Webmaster Tools plugin simplifies the process of adding the Google Search Console verification code to your website, ensuring that you can easily verify your site and access valuable insights about its performance.
 
 == Installation ==
 
