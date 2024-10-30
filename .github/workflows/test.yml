@@ -4,7 +4,7 @@ on: [pull_request, push]
 
 jobs:
   PHPCS:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu:latest
 
     steps:
       - name: Checkout code
@@ -28,7 +28,7 @@ jobs:
         run: composer phpcs
 
   PHPLint:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu:latest
 
     steps:
       - name: Checkout code
@@ -49,7 +49,7 @@ jobs:
         run: composer phplint
 
   Psalm:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu:latest
 
     steps:
       - name: Checkout code
@@ -73,7 +73,7 @@ jobs:
         run: composer psalm
 
   Playwright:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu:latest
     timeout-minutes: 60
 
     steps:
