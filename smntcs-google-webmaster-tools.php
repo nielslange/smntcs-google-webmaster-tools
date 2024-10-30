@@ -2,13 +2,13 @@
 /**
  * Plugin Name:           SMNTCS Google Webmaster Tools
  * Plugin URI:            https://github.com/nielslange/smntcs-google-webmaster-tools
- * Description:           Adds <a href="https://www.google.com/webmasters/tools/">Google Webmaster Tools</a> to your site
+ * Description:           Adds <a href="https://www.google.com/webmasters/tools/">Google Webmaster Tools</a> to your site.
  * Author:                Niels Lange
  * Author URI:            https://nielslange.de
  * Text Domain:           smntcs-google-webmaster-tools
  * Version:               3.4
  * Requires PHP:          5.6
- * Requires at least:     3.4
+ * Requires at least:     5.5
  * License:               GPL v2 or later
  * License URI:           https://www.gnu.org/licenses/gpl-2.0.html
  *
@@ -18,74 +18,76 @@
 defined( 'ABSPATH' ) || exit;
 
 /**
- * Load textdomain
- *
- * @return void
+ * Class SMNTCS_Google_Webmaster_Tools
  */
-function smntcs_google_webmaster_tools_load_textdomain() {
-	load_plugin_textdomain( 'smntcs-google-webmaster-tools', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
-}
-add_action( 'plugins_loaded', 'smntcs_google_webmaster_tools_load_textdomain', 1, 0 );
+class SMNTCS_Google_Webmaster_Tools {
 
-/**
- * Add settings link on plugin page
- *
- * @param array $links The original array with customizer links.
- *
- * @return array The updated array with customizer links.
- */
-function smntcs_google_webmaster_tools_settings_link( array $links ) {
-	$admin_url     = admin_url( 'customize.php?autofocus[control]=smntcs_google_webmaster_tools_tracking_code' );
-	$settings_link = sprintf( '<a href="%s">' . __( 'Settings', 'smntcs-google-webmaster-tools' ) . '</a>', $admin_url );
-	array_unshift( $links, $settings_link );
+	/**
+	 * SMNTCS_Google_Webmaster_Tools constructor.
+	 */
+	public function __construct() {
+		add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), array( $this, 'plugin_settings_link' ) );
+		add_action( 'customize_register', array( $this, 'register_customize' ) );
+		add_action( 'wp_head', array( $this, 'enqueue' ), 10, 0 );
+	}
 
-	return $links;
-}
-add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'smntcs_google_webmaster_tools_settings_link' );
+	/**
+	 * Add settings link to plugin list.
+	 *
+	 * @param array $links Array of plugin action links.
+	 * @return array
+	 */
+	public function plugin_settings_link( $links ) {
+		$admin_url     = admin_url( 'customize.php?autofocus[control]=smntcs_google_webmaster_tools_tracking_code' );
+		$settings_link = '<a href="' . esc_url( $admin_url ) . '">' . __( 'Settings', 'smntcs-google-webmaster-tools' ) . '</a>';
+		array_unshift( $links, $settings_link );
 
-/**
- * Add Adobe Typekit Fonts to WordPress Customizer
- *
- * @param WP_Customize_Manager $wp_customize The customizer object.
- *
- * @return void
- */
-function smntcs_google_webmaster_tools_register_customize( WP_Customize_Manager $wp_customize ) {
-	$wp_customize->add_section(
-		'smntcs_google_webmaster_tools_section',
-		array(
-			'priority' => 150,
-			'title'    => __( 'Google Search Console', 'smntcs-google-webmaster-tools' ),
-		)
-	);
+		return $links;
+	}
 
-	$wp_customize->add_setting(
-		'smntcs_google_webmaster_tools_tracking_code',
-		array(
-			'type' => 'option',
-		)
-	);
+	/**
+	 * Register customizer settings.
+	 *
+	 * @param WP_Customize_Manager $wp_customize Customizer instance.
+	 * @return void
+	 */
+	public function register_customize( $wp_customize ) {
+		$wp_customize->add_section(
+			'smntcs_google_webmaster_tools_section',
+			array(
+				'priority' => 150,
+				'title'    => __( 'Google Search Console', 'smntcs-google-webmaster-tools' ),
+			)
+		);
 
-	$wp_customize->add_control(
-		'smntcs_google_webmaster_tools_tracking_code',
-		array(
-			'label'   => __( 'Verification code', 'smntcs-google-webmaster-tools' ),
-			'section' => 'smntcs_google_webmaster_tools_section',
+		$wp_customize->add_setting(
+			'smntcs_google_webmaster_tools_tracking_code',
+			array(
+				'type' => 'option',
+			)
+		);
 
-			'type'    => 'textarea',
-		)
-	);
-}
-add_action( 'customize_register', 'smntcs_google_webmaster_tools_register_customize' );
+		$wp_customize->add_control(
+			'smntcs_google_webmaster_tools_tracking_code',
+			array(
+				'label'   => __( 'Verification code', 'smntcs-google-webmaster-tools' ),
+				'section' => 'smntcs_google_webmaster_tools_section',
+				'type'    => 'textarea',
+			)
+		);
+	}
 
-/**
- * Add Google Webmaster Tools code to DOM.
- *
- * @return void
- */
-function smntcs_google_webmaster_tools_enqueue() {
-	if ( get_option( 'smntcs_google_webmaster_tools_tracking_code' ) ) {
-		print( get_option( 'smntcs_google_webmaster_tools_tracking_code' ) . "\n" ); //phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+	/**
+	 * Output the tracking code in the head section.
+	 *
+	 * @return void
+	 */
+	public function enqueue() {
+		$tracking_code = get_option( 'smntcs_google_webmaster_tools_tracking_code' );
+		if ( $tracking_code ) {
+			echo $tracking_code . "\n"; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+		}
 	}
 }
-add_action( 'wp_head', 'smntcs_google_webmaster_tools_enqueue', 1, 0 );
+
+new SMNTCS_Google_Webmaster_Tools();
