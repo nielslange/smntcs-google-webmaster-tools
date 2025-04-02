@@ -2,9 +2,9 @@
 
 Contributors:       nielslange
 Tags:               Google Webmaster Tools, Google Search Console
-Stable tag:         3.4
-Tested up to:       6.7
-Requires PHP:       5.6
+Stable tag:         3.5
+Tested up to:       6.8
+Requires PHP:       7.4
 Requires at least:	3.4
 License:            GPL v2 or later
 License URI:        https://www.gnu.org/licenses/gpl-2.0.html
@@ -50,6 +50,10 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 3. Paste you Google Analytics tracking code in the customizer
 
 == Changelog ==
+
+= 3.5 (2025.04.02) =
+
+-   Test up to WordPress 6.8
 
 = 3.4 (2024.10.30) =
 

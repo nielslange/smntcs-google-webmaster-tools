@@ -2,10 +2,6 @@
 	"name": "nielslange/smntcs-google-webmaster-tools",
 	"description": "Adds the verification code of Google Search Console, former Google Webmaster Tools, to your site.",
 	"homepage": "https://github.com/nielslange/smntcs-google-webmaster-tools",
-	"support": {
-		"issues": "https://github.com/nielslange/smntcs-google-webmaster-tools/issues",
-		"source": "https://github.com/nielslange/smntcs-google-webmaster-tools"
-	},
 	"type": "wordpress-plugin",
 	"keywords": [
 		"WordPress",
@@ -19,9 +15,6 @@
 			"email": "info@nielslange.de"
 		}
 	],
-	"require": {
-		"php": ">=8.2"
-	},
 	"require-dev": {
 		"dealerdirect/phpcodesniffer-composer-installer": "1.0.0",
 		"humanmade/psalm-plugin-wordpress": "3.1.1",
@@ -32,8 +25,8 @@
 		"wp-coding-standards/wpcs": "3.1.0"
 	},
 	"scripts": {
-		"phpcbf": "phpcbf --standard=phpcs.dist.xml .",
-		"phpcs": "phpcs --standard=phpcs.dist.xml .",
+		"phpcbf": "phpcbf --standard=phpcs.xml .",
+		"phpcs": "phpcs --standard=phpcs.xml .",
 		"phplint": "phplint",
 		"psalm": "psalm --no-cache"
 	},
