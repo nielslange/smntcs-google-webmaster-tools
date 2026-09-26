@@ -1,15 +1,15 @@
 === SMNTCS Google Webmaster Tools ===
 
 Contributors:       nielslange
-Tags:               Google Webmaster Tools, Google Search Console
-Stable tag:         3.6
-Tested up to:       7.0
+Tags:               google search console, webmaster tools, verification, seo, google
+Requires at least:  5.5
+Tested up to:       7.1
 Requires PHP:       7.4
-Requires at least:	3.4
+Stable tag:         3.7
 License:            GPL v2 or later
 License URI:        https://www.gnu.org/licenses/gpl-2.0.html
 
-Adds the verification code of Google Search Console, former Google Webmaster Tools, to your site.
+Adds the Google Search Console verification meta tag to your site, so you can verify ownership in a minute.
 
 == Description ==
 
@@ -41,15 +41,20 @@ Google Webmaster Tools enables web masters to detect indexing issues, e.g. if th
 
 = Why am I not able to save the verification code? =
 
-This issue might be caused by a security plugin. If you use a security plugin, e.g. Wordfence, then disable it so save your verification code and activate it once you’re done.
+This issue might be caused by a security plugin. If you use a security plugin, e.g. Wordfence, then disable it to save your verification code and activate it once you’re done.
 
 == Screenshots ==
 
 1. Provide your URL in the section _URL prefix_
 2. Copy the meta tag from  the section _HTML tag_
-3. Paste you Google Analytics tracking code in the customizer
+3. Paste your Google Analytics tracking code in the customizer
 
 == Changelog ==
+
+= 3.7 (2026.09.26) =
+
+- Test up to WordPress 7.1
+- Update development dependencies and GitHub Actions
 
 = 3.6 (2026.08.14) =
 
