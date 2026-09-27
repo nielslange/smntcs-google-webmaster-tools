@@ -28,6 +28,11 @@ You can find the plugin on[WordPress.org](https://wordpress.org/plugins/smntcs-g
 
 ## Changelog
 
+### 3.8 (2026.09.27)
+
+- Clarify the licence as GPL v2 or later
+- Rewrite the plugin description
+
 ### 3.7 (2026.09.26)
 
 - Test up to WordPress 7.1

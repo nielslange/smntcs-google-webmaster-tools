@@ -5,7 +5,7 @@ Tags:               google search console, webmaster tools, verification, seo, g
 Requires at least:  5.5
 Tested up to:       7.1
 Requires PHP:       7.4
-Stable tag:         3.7
+Stable tag:         3.8
 License:            GPL v2 or later
 License URI:        https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +13,11 @@ Adds the Google Search Console verification meta tag to your site, so you can ve
 
 == Description ==
 
-Google Search Console, formerly known as Google Webmaster Tools, is an essential tool for monitoring and maintaining your site's presence in Google search results. The SMNTCS Google Webmaster Tools plugin simplifies the process of adding the Google Search Console verification code to your website, ensuring that you can easily verify your site and access valuable insights about its performance.
+SMNTCS Google Webmaster Tools adds the Google Search Console verification tag to the head of every page, so Google can confirm that you own the site.
+
+In Search Console, choose the HTML tag verification method and copy the tag. Paste the whole tag or just the code into the Customizer under Google Search Console, publish, and click Verify in Search Console.
+
+Google Search Console was formerly called Google Webmaster Tools.
 
 == Installation ==
 
@@ -50,6 +54,11 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 3. Paste your Google Analytics tracking code in the customizer
 
 == Changelog ==
+
+= 3.8 (2026.09.27) =
+
+- Clarify the licence as GPL v2 or later
+- Rewrite the plugin description
 
 = 3.7 (2026.09.26) =
 
